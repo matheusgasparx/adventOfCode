@@ -3,3 +3,5 @@
 <h3>Javascript Code</h3>
 
 <p>https://adventofcode.com/</p>
+
+<p>this repo is about a code challenger</p>

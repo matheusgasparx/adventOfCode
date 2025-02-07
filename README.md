@@ -5,6 +5,3 @@
 <p>https://adventofcode.com/</p>
 
 <p>this repo is about a code challenger</p>
-
-
-about one

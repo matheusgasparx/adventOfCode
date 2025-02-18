@@ -4,4 +4,4 @@
 
 <p>https://adventofcode.com/</p>
 
-<p>this repo is about a code challenger</p>
+<p>this repo is about a code challenge</p>

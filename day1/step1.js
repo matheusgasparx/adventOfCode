@@ -23,6 +23,6 @@ fs.readFile('priquito.txt', (err, data) => {
       return sum
   }
 
-  console.log(distance(list1, list2), 'distance')
+  console.log(distance(list1, list2), 'away')
 }); 
 

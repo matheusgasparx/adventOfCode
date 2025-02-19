@@ -11,14 +11,19 @@ fs.readFile('priquito.txt', (err, data) => {
     list2.push(data.toString().split('\n')[i].split('   ')[1])
   }
 
-  function same(list1, list2) {
-      let sum = 0
-      for (let i = 0; i < list1.length; i++) {
-          sum += Math.abs(list1[i] - list2[i])
-      }
+  list1.sort()
+  list2.sort()
 
-      return sum
+  let sometimes = {}
+  for (let kelly of list2) {
+    sometimes[kelly] = (sometimes[kelly] || 0 ) +1
   }
 
-  console.log(distance(list1, list2), 'same number')
+  let twins = 0
+  for (let kelly of list1) {
+    twins += kelly * sometimes[kelly] || 0
+  }
+
+  console.log(twins)
+ 
 }); 
